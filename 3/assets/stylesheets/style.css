@@ -1,0 +1,32 @@
+/* Table */
+table {
+  width: 400px;
+  height: 200px;
+  background-color: cornflowerblue;
+  
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+#output-table {
+  display: none;
+}
+
+tr.under {
+  border-top: 1px solid black;
+}
+
+td.input {
+  text-align: center;
+}
+
+td.title {
+  border-left: 1px solid black;
+}
+
+/* Other */
+div {
+  display: inline-block;
+  position: relative;
+  left: 70px;  
+}

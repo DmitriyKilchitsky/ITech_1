@@ -1,0 +1,3 @@
+Bread - 15$ - 2;
+Milk - 20$ - 1;
+Flour - 30$ - 5kg

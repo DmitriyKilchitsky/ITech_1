@@ -1,0 +1,56 @@
+/*Blocks*/
+.block {
+	width: 90px;
+	height: 90px;
+}
+
+.first {
+	position: relative;
+	left: 50px;
+
+	background-color: blue;
+}
+
+.second {
+	position: relative;
+	left: 80px;
+	bottom: 60px;
+
+	background-color: orange;
+}
+
+.third {
+	position: relative;
+	left: 110px;
+	bottom: 120px;
+
+	background-color: green;
+}
+
+/*Table*/
+table {
+	width: 420px;
+
+	border: 2px solid rgb(150, 50, 50);
+	border-bottom-width: 1px;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: rgb(150, 50, 50);
+	color: white;
+}
+
+td {
+	border-top: 2px solid rgb(150, 50, 50);
+	text-align: center;
+}
+
+td.subject {
+	text-align: left;
+}
+
+tr.yellow-narrow td {
+	border-top: 1px solid rgb(150, 50, 50); 
+	background-color: rgb(255, 255, 200);
+}
